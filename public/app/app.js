@@ -1,1 +1,5 @@
-angular.module('MyApp',['authService','loginCtrl', 'appRoutes'])
+angular.module('MyApp',['authService',
+                        'loginCtrl',
+                        'appRoutes',
+                        'UserController'
+                        ])
